@@ -1,0 +1,22 @@
+Package: melbourne
+Type: Package
+Title: A package love letter to Melbourne
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Dionne", "Argyropoulos",
+      email = "dionne.argy@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: This is a package that contains random colour palettes and miscellaneous things related to Melbourne. 
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports: 
+    magrittr
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

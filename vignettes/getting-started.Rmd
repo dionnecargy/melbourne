@@ -1,0 +1,39 @@
+---
+title: "getting-started"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{getting-started}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+# Install the package 
+devtools::install_github("dionnecargy/melbourne")
+
+# Load package 
+library(melbourne)
+
+# Load other packages for plotting purposes
+library(tidyverse)
+
+# Run a plot! 
+iris %>% 
+  ggplot(aes(Sepal.Length, Sepal.Width, colour = Species)) + 
+  geom_point() + 
+  scale_color_manual(values = melb_trams(n = 3)) 
+
+# Run a plot specifying the trams you want! 
+iris %>% 
+  ggplot(aes(Sepal.Length, Sepal.Width, colour = Species)) + 
+  geom_point() + 
+  scale_color_manual(values = melb_trams(n = 3, name = c("the59", "the109", "the35"))) 
+```
+
