@@ -20,3 +20,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/dionnecargy/melbourne
+BugReports: https://github.com/dionnecargy/melbourne/issues
