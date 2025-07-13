@@ -29,4 +29,4 @@ iris %>%
   scale_color_manual(values = melb_trams(n = 3, name = c("the59", "the109", "the35"))) 
 ```
 
-Colours were obtained using the [Melbourne Tram Network Map 2017](https://www.ptv.vic.gov.au/assets/PDFs/Maps/Network-maps/417bb4810a/PTV_Tram-Network-Map_2017.pdf](https://www.ptv.vic.gov.au/assets/PTV-default-site/Maps-and-Timetables-PDFs/Maps/Network-maps/DTP0899-A-Yarra-Tram-Network-Map_July-2024_A4L_v1_FA.pdf).
+Colours were obtained using the [Melbourne Tram Network Map 2017](https://www.ptv.vic.gov.au/assets/PTV-default-site/Maps-and-Timetables-PDFs/Maps/Network-maps/DTP0899-A-Yarra-Tram-Network-Map_July-2024_A4L_v1_FA.pdf).
